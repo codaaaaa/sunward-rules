@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "minAppVersion": 0,
+  "note": "Sunward detection rules. Any value left out uses the app's built-in default. Bump version on every change, then sign.",
+  "apps": {
+    "com.instagram.android": {
+      "enabled": true,
+      "values": {
+        "viewer_id": "clips_viewer_view_pager",
+        "creator_id": "clips_media_component",
+        "like_id": "like_count",
+        "comment_id": "comment_count",
+        "video_id": "clips_video_container",
+        "sponsored_prefix": "Sponsored",
+        "ad_labels": [
+          "Ad"
+        ],
+        "feed_bar_id": "main_feed_action_bar",
+        "feed_header_id": "sticky_header_list",
+        "feed_list_ids": [
+          "android:id/list",
+          "list"
+        ],
+        "menu_item_id": "context_menu_item",
+        "menu_following_label": "Following",
+        "min_fill": 0.5
+      }
+    },
+    "com.google.android.youtube": {
+      "enabled": true,
+      "values": {
+        "list_id": "reel_recycler",
+        "like_prefix": "like this video",
+        "channel_prefix": "Subscribe to",
+        "comments_prefix": "View ",
+        "comments_word": "comment",
+        "ad_labels": [
+          "Ad",
+          "Sponsored"
+        ],
+        "max_depth": 25,
+        "min_fill": 0.5
+      }
+    },
+    "com.zhiliaoapp.musically": {
+      "enabled": true,
+      "values": {
+        "page_id": "view_rootview",
+        "touch_id": "long_press_layout",
+        "live_label": "LIVE",
+        "live_title_id": "tv_live_title",
+        "like_prefix": "Like video",
+        "comments_prefix": "Read or add comments",
+        "sound_prefix": "Sound:",
+        "ad_labels": [
+          "Sponsored",
+          "Ad"
+        ],
+        "min_fill": 0.5
+      }
+    },
+    "com.zhiliaoapp.musically.go": {
+      "enabled": true,
+      "values": {
+        "page_id": "gesture_deal_view",
+        "author_id": "title",
+        "caption_id": "desc",
+        "ad_labels": [
+          "Sponsored"
+        ],
+        "min_fill": 0.5
+      }
+    },
+    "com.snapchat.android": {
+      "enabled": true,
+      "values": {
+        "favourite_id": "favorite",
+        "title_id": "chrome_title",
+        "viewer_id": "opera_viewer",
+        "ad_label": "Ad",
+        "ad_suffix": "· Ad",
+        "key_depth": 4,
+        "min_fill": 0.5
+      }
+    },
+    "com.facebook.katana": {
+      "enabled": true,
+      "values": {
+        "details_search": "details",
+        "details_labels": [
+          "Reels tab details",
+          "Reel details"
+        ],
+        "creator_label": "'s reels",
+        "reactions_label": "reactions",
+        "ad_labels": [
+          "Sponsored",
+          "Ad"
+        ],
+        "home_tab_label": "Home, tab",
+        "back_label": "Back",
+        "comment_search": "a comment",
+        "comment_box_labels": [
+          "Write a comment",
+          "Add a comment"
+        ],
+        "progress_class": "SeekBar",
+        "progress_depth": 5,
+        "min_fill": 0.5
+      }
+    }
+  }
+}
