@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 10,
   "minAppVersion": 0,
   "note": "Sunward detection rules. Any value left out uses the app's built-in default. Bump version on every change, then sign.",
   "apps": {
@@ -36,7 +36,8 @@
         "comments_word": "comment",
         "ad_labels": [
           "Ad",
-          "Sponsored"
+          "Sponsored",
+          "Patrocinado"
         ],
         "max_depth": 25,
         "min_fill": 0.5
@@ -54,7 +55,8 @@
         "sound_prefix": "Sound:",
         "ad_labels": [
           "Sponsored",
-          "Ad"
+          "Ad",
+          "Patrocinado"
         ],
         "min_fill": 0.5
       }
@@ -66,7 +68,8 @@
         "author_id": "title",
         "caption_id": "desc",
         "ad_labels": [
-          "Sponsored"
+          "Sponsored",
+          "Patrocinado"
         ],
         "min_fill": 0.5
       }
@@ -86,19 +89,27 @@
     "com.facebook.katana": {
       "enabled": true,
       "values": {
-        "details_search": "details",
-        "details_labels": [
+        "sound_separator": " · ",
+        "list_class": "RecyclerView",
+        "max_climb": 15,
+        "creator_label": "'s reels",
+        "reel_search": "details",
+        "reel_buttons": [
           "Reels tab details",
           "Reel details"
         ],
-        "creator_label": "'s reels",
-        "reactions_label": "reactions",
+        "tab_class": "ActionBar$Tab",
+        "home_tab_label": "Home, tab",
+        "back_buttons": [
+          "Back",
+          "Atrás"
+        ],
         "ad_labels": [
           "Sponsored",
-          "Ad"
+          "Ad",
+          "Publicidad",
+          "Patrocinado"
         ],
-        "home_tab_label": "Home, tab",
-        "back_label": "Back",
         "comment_search": "a comment",
         "comment_box_labels": [
           "Write a comment",
