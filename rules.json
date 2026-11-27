@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "minAppVersion": 0,
   "note": "Sunward detection rules. Any value left out uses the app's built-in default. Bump version on every change, then sign.",
   "apps": {
@@ -89,9 +89,6 @@
     "com.facebook.katana": {
       "enabled": true,
       "values": {
-        "list_class": "RecyclerView",
-        "max_climb": 15,
-        "creator_label": "'s reels",
         "reel_search": "Reel",
         "reel_buttons": [
           "Reels tab details",
@@ -118,7 +115,10 @@
         "progress_class": "SeekBar",
         "progress_depth": 5,
         "min_fill": 0.5,
-        "sound_dot": "·"
+        "creator_labels": [
+          "'s reels",
+          "Ver reels de"
+        ]
       }
     }
   }
