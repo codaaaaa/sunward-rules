@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "minAppVersion": 0,
   "note": "Sunward detection rules. Any value left out uses the app's built-in default. Bump version on every change, then sign.",
   "apps": {
@@ -50,15 +50,14 @@
         "touch_id": "long_press_layout",
         "live_label": "LIVE",
         "live_title_id": "tv_live_title",
-        "like_prefix": "Like video",
-        "comments_prefix": "Read or add comments",
-        "sound_prefix": "Sound:",
         "ad_labels": [
           "Sponsored",
           "Ad",
           "Patrocinado"
         ],
-        "min_fill": 0.5
+        "min_fill": 0.5,
+        "author_id": "title",
+        "caption_id": "desc"
       }
     },
     "com.zhiliaoapp.musically.go": {
